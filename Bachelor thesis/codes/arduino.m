@@ -2,19 +2,18 @@
 
     clear all
     clc
-    
-    serial = serialport('COM3',9600);
-    
-    fopen(serial);
-
-    data = read(data,16,"uint32"); 
+     
+    arduino1=serial('COM3','BaudRate',9600);
+     
+    fopen(arduino1);
+     
     x=linspace(1,1000);
        
     for i=1:length(x)
-    	y(i)=fscanf(data,'%d');
+    	y(i)=fscanf(arduino1,'%d');
     end
     	
-     fclose(data);
+    fclose(arduino1);
     
-     disp('making plot..')
-     plot(x,y);
+    disp('making plot..')
+    plot(x,y);
