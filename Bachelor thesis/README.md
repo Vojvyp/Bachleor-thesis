@@ -1,2 +1,8 @@
-# Electronics
-Repository of my electronic projects
+# Bachelor thesis
+Repository of my Bachelor thesis 2021
+
+
+&nbsp;
+Téma: Měřící přípravek pulzů srdce pomocí PPG snímače
+&nbsp;
+
