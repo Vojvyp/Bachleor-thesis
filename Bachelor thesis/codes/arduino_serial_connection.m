@@ -1,8 +1,9 @@
 clear all
 clc
+COM = "COM3"
 
-x=1:400;                          % record length       
-serial = serialport("COM3",9600); % open serial port for comunication with arduino
+x=1:800;                          % record length       
+serial = serialport(COM(1),9600); % open serial port for comunication with arduino
 
 
 for i=1:length(x)                 % read data and string transfer to double format
@@ -12,3 +13,5 @@ end
     
 disp('making plot..')
 plot(x,y);
+
+
