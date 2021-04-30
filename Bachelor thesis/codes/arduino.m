@@ -16,4 +16,4 @@
     fclose(arduino1);
     
     disp('making plot..')
-    plot(x,y);
+        plot(x,y);
