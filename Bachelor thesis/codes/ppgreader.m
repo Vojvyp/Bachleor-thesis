@@ -34,8 +34,9 @@ P1(2:end-1) = 2*P1(2:end-1);
 
 %% calculating BPM
 
-
-
+[row, col] = find(ismember(P1, max(P1(:))));
+freq=f(row,col)
+BPM=f(row,col)*60
 
 %% ploting data
 
