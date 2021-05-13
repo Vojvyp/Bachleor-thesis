@@ -1,0 +1,129 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Reference_Current:LM334SM U1
+U 1 1 5FC90EFB
+P 4800 4000
+F 0 "U1" H 4671 4046 50  0000 R CNN
+F 1 "LM334SM" H 4671 3955 50  0000 R CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4825 3825 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm134.pdf" H 4800 4000 50  0001 C CIN
+	1    4800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM P1
+U 1 1 5FC935A3
+P 5300 4320
+F 0 "P1" H 5230 4274 50  0000 R CNN
+F 1 "4.7k" H 5230 4365 50  0000 R CNN
+F 2 "" H 5300 4320 50  0001 C CNN
+F 3 "~" H 5300 4320 50  0001 C CNN
+	1    5300 4320
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 4000 5300 4000
+Wire Wire Line
+	5300 4000 5300 4170
+Wire Wire Line
+	4800 4200 4800 4700
+Wire Wire Line
+	4800 4700 5300 4700
+Wire Wire Line
+	5300 4700 5300 4530
+Wire Wire Line
+	5300 4530 5150 4530
+Wire Wire Line
+	5150 4530 5150 4320
+Connection ~ 5300 4530
+Wire Wire Line
+	5300 4530 5300 4470
+$Comp
+L Transistor_BJT:BC557 Q1
+U 1 1 5FC9567B
+P 5520 3400
+F 0 "Q1" H 5711 3446 50  0000 L CNN
+F 1 "BC557" H 5711 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5720 3325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 5520 3400 50  0001 L CNN
+	1    5520 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3800 4800 3400
+Wire Wire Line
+	5620 3600 5620 4700
+Connection ~ 5300 4700
+Wire Wire Line
+	4800 3400 5320 3400
+Wire Wire Line
+	5620 4700 5300 4700
+$Comp
+L power:+5V #PWR?
+U 1 1 5FC98EB0
+P 5620 2810
+F 0 "#PWR?" H 5620 2660 50  0001 C CNN
+F 1 "+5V" H 5635 2983 50  0000 C CNN
+F 2 "" H 5620 2810 50  0001 C CNN
+F 3 "" H 5620 2810 50  0001 C CNN
+	1    5620 2810
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5FC99E36
+P 5300 4800
+F 0 "#PWR?" H 5300 4550 50  0001 C CNN
+F 1 "GNDD" H 5304 4645 50  0001 C CNN
+F 2 "" H 5300 4800 50  0001 C CNN
+F 3 "" H 5300 4800 50  0001 C CNN
+	1    5300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4800 5300 4700
+$Comp
+L Connector:Conn_01x01_Female J1
+U 1 1 5FC9D89F
+P 6000 2900
+F 0 "J1" H 6028 2926 50  0000 L CNN
+F 1 "A NIR LED" H 6028 2835 50  0000 L CNN
+F 2 "" H 6000 2900 50  0001 C CNN
+F 3 "~" H 6000 2900 50  0001 C CNN
+	1    6000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J2
+U 1 1 5FC9E6B5
+P 6000 3100
+F 0 "J2" H 6028 3126 50  0000 L CNN
+F 1 "K NIR LED" H 6028 3035 50  0000 L CNN
+F 2 "" H 6000 3100 50  0001 C CNN
+F 3 "~" H 6000 3100 50  0001 C CNN
+	1    6000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2900 5620 2900
+Wire Wire Line
+	5620 2900 5620 2810
+Wire Wire Line
+	5800 3100 5620 3100
+Wire Wire Line
+	5620 3100 5620 3200
+$EndSCHEMATC
