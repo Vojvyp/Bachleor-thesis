@@ -19,6 +19,64 @@
    sodipodi:docname="ppgkrivka.svg">
   <defs
      id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="marker1334"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1332" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1288"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1286" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path865" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path862" />
+    </marker>
     <pattern
        id="EMFhbasepattern"
        patternUnits="userSpaceOnUse"
@@ -42,8 +100,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="268.32209"
-     inkscape:cy="460.8821"
+     inkscape:cx="358.31937"
+     inkscape:cy="472.47803"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -67,7 +125,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -76,27 +134,35 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#ff0000;stroke-width:0.264583;opacity:1"
+       style="fill:#008000;stroke-width:0.264583;opacity:1"
        d="m 38.727103,147.36315 c -0.60098,-0.11901 -2.059495,-0.65831 -3.241146,-1.19846 -1.958703,-0.89534 -2.148456,-1.04893 -2.148456,-1.73901 0,-0.41631 0.0514,-0.75693 0.114214,-0.75693 0.06282,0 1.191358,0.52426 2.507869,1.16501 3.973589,1.93399 5.6086,1.86805 7.42824,-0.2996 1.018268,-1.21301 3.097908,-5.456 5.28723,-10.78729 5.023091,-12.23189 7.690202,-15.2543 11.710017,-13.26998 0.767326,0.37878 2.661719,1.85261 4.209759,3.27517 2.049862,1.88371 3.599235,3.02845 5.70234,4.21312 1.588246,0.89465 4.257061,2.62616 5.930699,3.8478 5.389266,3.93381 11.042542,7.04792 17.699218,9.74962 8.456403,3.43215 10.116963,3.99603 11.767803,3.99603 3.31389,0 4.47554,-1.57467 9.00645,-12.20863 2.84309,-6.67271 4.08188,-9.17725 5.59175,-11.30524 1.83611,-2.58778 4.04379,-3.55136 6.09915,-2.66206 2.43991,1.05568 5.20995,3.5665 7.81991,7.08813 0.80887,1.09141 1.74946,2.24037 2.0902,2.55325 0.94644,0.86906 6.49575,4.16199 11.07057,6.56922 2.25558,1.18686 4.73574,2.53945 5.51147,3.00576 1.54446,0.92839 11.39778,5.22889 13.93541,6.08213 1.33793,0.44986 1.60066,0.64101 1.67122,1.21588 0.046,0.37515 -0.0485,0.68209 -0.20999,0.68209 -1.26207,0 -13.52052,-5.31967 -17.60082,-7.63803 -1.74625,-0.9922 -4.15172,-2.28641 -5.34549,-2.87603 -1.19377,-0.58962 -3.21783,-1.72303 -4.49791,-2.5187 -1.28009,-0.79567 -2.86488,-1.74922 -3.52176,-2.11901 -1.34055,-0.75466 -3.05715,-2.53958 -5.44915,-5.66603 -2.327,-3.04148 -5.52377,-5.37595 -7.36173,-5.37595 -0.365,0 -1.08907,0.37607 -1.61768,0.8402 -1.94597,1.70858 -3.5584,4.65136 -7.00572,12.78585 -3.09857,7.31156 -4.17245,9.34282 -5.82216,11.01266 -1.22063,1.23553 -1.70529,1.53819 -2.85961,1.78574 -1.71097,0.36694 -4.50344,-0.13705 -7.16052,-1.29234 -1.831149,-0.79618 -8.293928,-3.43232 -11.006185,-4.48937 -2.922876,-1.13914 -9.429367,-5.04185 -14.155209,-8.49054 -1.527969,-1.11503 -3.94321,-2.66208 -5.367203,-3.43789 -1.82232,-0.99281 -3.506986,-2.22647 -5.688542,-4.16566 -4.616688,-4.10378 -5.681707,-4.4623 -7.589197,-2.55482 -1.779495,1.7795 -3.239762,4.63997 -7.423992,14.54263 -3.020856,7.14935 -4.825455,9.85027 -6.981575,10.44921 -1.076686,0.29909 -1.555178,0.29786 -3.099474,-0.008 z"
-       id="path144" />
+       id="path144"
+       inkscape:export-filename="C:\Users\vojvy\Desktop\path144.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.269823px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 124.35417,120.38542 v 34.39583"
-       id="path53" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.301671px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 125.67708,153.45833 H 39.6875"
-       id="path66" />
+       id="path53"
+       inkscape:export-filename="C:\Users\vojvy\Desktop\path144.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 58.208333,154.78125 V 120.38542"
-       id="path68" />
+       id="path68"
+       inkscape:export-filename="C:\Users\vojvy\Desktop\path144.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-size:3.52778px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
        x="89.202385"
        y="151.19048"
-       id="text72"><tspan
+       id="text72"
+       inkscape:export-filename="C:\Users\vojvy\Desktop\path144.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan70"
          x="89.202385"
@@ -107,13 +173,19 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 41.010416,146.84375 v 7.9375"
-       id="path76" />
+       id="path76"
+       inkscape:export-filename="C:\Users\vojvy\Desktop\path144.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-size:3.52778px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
        x="47.476955"
        y="151.19048"
-       id="text72-8"><tspan
+       id="text72-8"
+       inkscape:export-filename="C:\Users\vojvy\Desktop\path144.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan70-1"
          x="47.476955"
@@ -124,13 +196,19 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 51.59375,119.58361 H 64.822917"
-       id="path108" />
+       id="path108"
+       inkscape:export-filename="C:\Users\vojvy\Desktop\path144.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-size:3.52778px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
        x="54.903885"
        y="117.20124"
-       id="text72-9"><tspan
+       id="text72-9"
+       inkscape:export-filename="C:\Users\vojvy\Desktop\path144.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan70-7"
          x="54.903885"
@@ -139,7 +217,10 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:0.245167px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 33.072917,108.47917 v 51.59375 H 168.01042"
-       id="path140" />
+       id="path140"
+       inkscape:export-filename="C:\Users\vojvy\Desktop\path144.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-size:3.52778px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
@@ -159,7 +240,10 @@
        style="font-size:3.52778px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
        x="96.572914"
        y="164.04167"
-       id="text191"><tspan
+       id="text191"
+       inkscape:export-filename="C:\Users\vojvy\Desktop\path144.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan189"
          x="96.572914"
@@ -183,7 +267,10 @@
        style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="21.554922"
        y="112.04635"
-       id="text228"><tspan
+       id="text228"
+       inkscape:export-filename="C:\Users\vojvy\Desktop\path144.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          x="21.554922"
          y="112.04635"
@@ -197,5 +284,19 @@
            dy="0"
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;font-family:'Times New Roman';fill:#000000;stroke-width:0.264583"
            id="tspan224"> </tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.11203;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 41.010417,154.78125 h 7.928117 9.269799"
+       id="path860"
+       inkscape:export-filename="C:\Users\vojvy\Desktop\path144.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.112;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1288);marker-end:url(#marker1334)"
+       d="M 58.208334,154.78125 H 124.35417"
+       id="path1278"
+       inkscape:export-filename="C:\Users\vojvy\Desktop\path144.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>
